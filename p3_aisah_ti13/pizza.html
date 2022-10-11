@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form pemesanan pizza</title>
+</head>
+<body>
+    <table alight="center" border="1">
+        <tr>
+            <td>
+                <from>
+                    <b>Black Goose Bisto pizza-on-Demand</b>
+                    <p>Our 12"Wood-Fired are available for delivery.
+                        Build your <br>custom pizza we'11delivery it 
+                        within an hour.
+                     <p>
+                        Your information
+                        <br/> 
+                        <label for="id_name">name</label>
+                        <input type="text"name="name"id_name/>
+                        <br />
+                        <label for="id_addres">addres:</label>
+                        <input type="text"name="addres"id="id_addres"/>
+                        <br>
+                        <label for="id_addres">telephone</label>
+                        <input type="tel"name="telephone"id="id_telephone"/>
+                        <br>
+                        <label for="id_email">email:</label>
+                        <input type="email"name="email"id="id_email"/>
+                        <br>
+                        Delivery instructions : <br>
+                        <textarea
+                           name="instructions"
+                           id="id_instructions"
+                           cols="30"
+                           rows="10"
+                           placehoder=no more than 400 characters long"
+                        ></textarea>
+                        <br> <br>
+                        <b>desight Your Dream Pizza:</b> <br>
+                        Pizza Specs
+                        <p>crust(choose one):</p>
+                        <ul type="none">
+                            <li><input type="radio" name="crust" value="white"/>classic white</li>
+                            <li><input type="radio" name="crust" value="multigrain"/>multigrain</li>
+                            <li><input type="radio" name="crust" value="cheese crust ">cheese-stuffed crust</li>
+                            <li><input type="radio" name=crust" value="gluten free">gluten-free</li>
+                        </ul>
+                        
+                        <p> toppings (choose as many as you want):</p>
+                        
+                    <ul type="none">
+                            <li><input type="checkbox" name="toppings[]" volue="red sauce">red sauce</li>
+                            <li><input type="checkbox" name="toppings[]" volue="white sauce">white sauce</li>
+                            <li><input type="checkbox" name="toppings[]" volue="mozzarella">mozarella cheese</li>
+                            <li><input type="checkbox" name="toppings[]" volue="pepperoni">pepperoni</li>
+                            <li><input type="checkbox" name="toppings[]" volue="mushrooms">mushrooms</li>
+                            <li><input type="checkbox" name="toppings[]" volue="peppers">peppers</li>
+                            <li><input type="checkbox" name="toppings[]" volue="anchovies">anchovies</li>
+                        </ul>
+                        <p>namber</p>
+                        <label for="id_pizza">How many pizzas</label>
+                        <select name="pizzas"id ="id_pizza"size="1">
+                            <option>1</option>
+                            <option>2</option>
+                            <option selected>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                        </select>
+                        <br/>
+                        <input type="submit">value=Bring me a pizza!"/>
+                        <input type="reset">value="reset"/>
+
+
+                </from>   
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
