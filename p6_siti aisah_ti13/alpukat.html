@@ -50,6 +50,30 @@
 
 
             }
+            .table{
+              font-weight: bold ;
+            }
+            .table th {
+              width: 10%;
+              border:1px solid black;
+            }
+            .table th,td{
+              padding:8px 20px;
+            }
+            .table tr th{
+              background: blue;
+              color: white;
+              font-size: 25px;
+            
+            }
+            .table tr:nth-child(even) {
+              background: #86dcec;
+             
+            }
+            #baris1 {
+            width:0%;
+            text-align: center
+            }
             button{
                 background-color: yellow;
                 color: red;
@@ -133,7 +157,49 @@ Daerah penghasil alpukat adalah Jawa Barat,Jawa Timur, sebagian Sumatera, Sulawe
        <div id="tombol">
             <button >PESAN SEKARANG</button>
        </div>
-     
+     <table class="table" border="1">
+       <thead>
+         <tr>
+           <th>no</th>
+           <th> jenis alpukat </th>
+           <th>harga 1 kg</th>
+           <th>harga 2 kg</th>
+           <th> harga 3 kg</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>alpuket mentega</td>
+            <td>rp.35.000</td>
+            <td>rp.65.000</td>
+            <td>rp.90.000</td>
+            </tr>
+
+            <tr>
+            <td>2</td>
+           <td> alpuket mentega miki</td>
+            <td>rp.50.000</td>
+            <td>rp.90.000</td>
+            <td>rp.135.000</td>
+            </tr>
+            
+          <tr>
+
+           <td>3</td>
+           <td> alpuket aligator</td>
+           <td>rp.30.000</td>
+           <td>rp.55.000</td>
+            <td>rp.80.000</td>
+            </tr>
+          </tr>
+
+           <td>4</td>
+           <td> alpuket keldil</td>
+            <td>rp.40.000</td>
+            <td>rp.75.000</td>
+            <td>rp.100.000</td>
+            </tr> 
       
     </body>
 </html>
