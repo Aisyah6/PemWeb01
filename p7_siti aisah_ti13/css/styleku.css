@@ -1,0 +1,61 @@
+
+
+
+
+.hijau{
+    margin-top: 30px;
+    width: 100%;
+    height: 150px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.baris1 div{
+    display: inline-block;
+}
+
+.kuning{
+    width: 20%;
+    height: 250px;
+    background-color: yellow;
+    margin-top: 30px;
+    margin-right: 22px;
+    margin-left: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.merah{
+    width: 755px;
+    height: 250px;
+    background-color: red;
+    margin-left:230px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.baris2 div{
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.kuning2{
+    width: 20%;
+    height: 250px;
+    background-color:orange;
+    margin-top: 30px;
+    margin-right: 22px;
+    margin-left: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+.biru{
+    width: 755px;
+    height: 250px;
+    background-color:greenyellow;
+    margin-left: 230px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
