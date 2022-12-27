@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Nilai pertama:
+    <br>
+    <input type="number" id="num1" onchange="jumlah()">
+    <br>
+    nilai kedua:
+    <br>
+    <input type="number" id="num2" onchange="jumlah()">
+    <br>
+    <div id="hasil"></div>
+    <br>
+
+    <script>
+        function jumlah() {
+        var num1 = parseIN(document.getElementById('num1').value);
+        var num2 = parseInt(document.getElementById('num2').value);
+        var hasil_penjumlahan= parseInt(num1)+parseInt('num2');
+        hasil.innerHTML = hasil_penjumlahan
+        }
+    </script>
+</body>
+</html>

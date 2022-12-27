@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image picker</title>
+    <script>
+        function gambar() {
+            let drop_img = document.getElementById("dropdown_img").value;
+            let image = document.getElementById("image");
+            
+            if (drop_img == "gorila"){
+                image.setAttribute("src","https://3.bp.blogspot.com/-tmXp23UT-QM/U6Paqqd_jlI/AAAAAAAACU8/se-9JmTdR_g/s1600/Gambar+Gorilla.jpg");
+
+            }else if (drop_img == "singa"){
+                image.setAttribute("src","https://3.bp.blogspot.com/-zDmC7aBS2p4/V5M7lyi39aI/AAAAAAAACFY/ZeEiEG560RAb_ielcCdtzB4CUQQW9uB2QCLcB/s1600/Gambar-singa-13.JPG");
+                    alert("ini gambar singa");
+
+            }else if (drop_img == "elang"){
+                image.setAttribute("src","https://i.pinimg.com/originals/87/29/6d/87296d20f52e39685ac1deeead4ca544.jpg");
+                alert("ini gambar elang");
+            
+            }else{
+                alert("tidak ada gamabar");
+            }
+        }
+    </script>
+</head>
+<body>
+    <select  id="dropdown_img" onchange="gambar()">
+        <option hidden>---pilih gambar----</option>
+        <option value="gorila">gorila</option>
+        <option value="singa">singa</option>
+        <option value="elang">elang</option>
+    </select>
+    <br>
+    <img alt="gambar" id="image">
+    
+</body>
+</html>

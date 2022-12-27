@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .navbar {background-color: white;
+      border-style: solid;
+      width: auto;}
+    .ul-navbar {display: flex;
+      list-style-type: none;
+      gap: 200px;}
+    li {padding: 1rem 5rem;}
+    .content {display: flex}
+    .gambar {padding: 40px 5px 5px 30px;}
+    img {border-radius: 25px;}
+    .form {padding: 50px 10px 10px 130px;}
+  </style>
+  <body style="background-color: #e5e7e9">
+    <div class="navbar">
+      <ul style="display: flex; list-style-type: none; gap: 10px">
+        <li>
+          <!-- Home -->
+          <a href="/" style="color:#532627">Home</a> |
+        </li>
+        <li>
+           <!--- General Link -->
+           <a href="/Generate Link" style="color:#532627">Generate Link</a> |
+        </li>
+        <li>
+          <!-- Transaction History -->
+          <a href="/Transaction History" style="color:#532627">Transaction History</a> |
+        </li>
+        <li>
+          <!-- Policy -->
+          <a href="/Policy" style="color:#532627">Policy</a> |
+        </li>
+        <li>
+           <!-- Logout -->
+           <a href="/Logout" style="color:#532627">Logout</a> |
+        </li>
+      </ul>
+    </div>
+    <div class="content">
+      <div class="gambar">
+        <img style="padding-left: 30px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREPeRw8h9l_pzOqk3vD1jbVtpFKTiE_1JIdw&usqp=CAU" width="350px"
+          alt=""
+        />
+      </div>
+      <div class="form">
+        <table>
+          <tr>
+            <td>Title Here :</td>
+            <td>jaket hoodie</td> <br>
+          </tr>
+          <tr>
+            <td>Description :</td>
+            <td>Year :2021<br>
+                Model : <br>
+              oversize : </td> 
+          </tr>
+          <tr>
+            <td>Total Amount :</td>
+            <td>Rp.200.000</td>
+          </tr>
+          <tr>
+            <td><label for="Bank">Bank</label></td>
+            <td>
+              :
+              <select name="Bank" id="id_Bank" size="1">
+                <option>BTN</option>
+                <option>BNI</option>
+                <option>Mandiri</option>
+                <option>BRI</option>
+                <option selected>BSI</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="account holder">Account Holder</label></td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="account holder"
+                placeholder="Name Hare"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Transaction">Transaction</label></td>
+            <td>: <input type="number" min="1" max="6" id="Transaction" /></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color: green">
+              * if the transacation is for 3 person choose from the drop-down
+              list
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td style="color: green">
+              <input type="checkbox" id="Red Sauce" checked="" />
+              <label for="white-sauce">Send to mobile phone</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td></td>
+            <td style="color: green">
+              <input type="checkbox" id="Red Sauce" checked="" />
+              <label for="white-sauce">Send to Email</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="Send to mobile phone">Send to mobile phone</label>
+            </td>
+            <td>
+              :
+              <input
+                type="text"
+                required
+                id="Send to mobile phone"
+                placeholder="08463528262"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="email">Send to Email</label></td>
+            <td>
+              :
+              <input
+                type="email"
+                required
+                id="email"
+                placeholder="sitiaisyah160421@gmail.com"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <a href="pembayaran.html"
+                ><input type="submit" style="background-color: green;color: white" value="Pay using quidLink"
+              /></a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
